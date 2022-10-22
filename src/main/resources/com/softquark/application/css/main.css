@@ -1,0 +1,62 @@
+/**
+*
+* Created by: Augusto Vicente
+*/
+
+.principal{
+    -fx-background-color: rgb(60,63,65);
+}
+
+.principal-menu{
+    -fx-background-color: rgb(60,63,65);
+    -fx-border-color: rgb(0,0,0);
+}
+
+.principal-inicioSesion{
+    -fx-background-color: rgb(90,93, 95);
+}
+
+.principal-default{
+    -fx-background-color: rgb(255,255,65);
+}
+
+#btnIniciar{
+    -fx-background-color: rgb(70,73,75);
+    -fx-background: transparent;
+    -fx-border-color:rgb(0,0,0);
+    -fx-text-fill: rgb(255,255,255);
+    -fx-font-size: 15px;
+    -fx-border-radius: 5px;
+}
+
+.botones{
+    -fx-background-color: rgb(70,73,75);
+    -fx-background: transparent;
+    -fx-border-color:rgb(0,0,0);
+    -fx-text-fill: rgb(255,255,255);
+    -fx-font-size: 15px;
+    -fx-border-radius: 5px;
+}
+
+.botones:hover{
+    -fx-background-color: rgb(90,93,95);
+    -fx-border-color:rgb(255,255,255);
+}
+
+#btnIniciar1:hover{
+    -fx-text-fill:rgb(80,250,50);
+}
+
+.icon {
+  -fx-display: inline-block;
+  -fx-width: 1em;
+  -fx-height: 1em;
+  -fx-stroke-width: 0;
+  -fx-stroke: currentColor;
+  -fx-fill: currentColor;
+}
+
+.principal-transparent{
+    -fx-background: transparent;
+    
+}

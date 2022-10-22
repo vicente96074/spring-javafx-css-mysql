@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="569.0" prefWidth="782.0" styleClass="principal" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.softquark.application.views.Login">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="340.0" minWidth="10.0" prefWidth="168.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="614.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="400.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <ScrollPane fitToHeight="true" fitToWidth="true" prefViewportHeight="569.0" prefViewportWidth="614.0" styleClass="principal" GridPane.columnIndex="1">
+         <content>
+            <GridPane minHeight="300.0" minWidth="300.0" prefHeight="567.0" prefWidth="612.0" styleClass="principal" GridPane.columnIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="-Infinity" prefWidth="300.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="80.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="800.0" minHeight="-Infinity" prefHeight="400.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane styleClass="principal-menu" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Label layoutX="125.0" layoutY="84.0" prefHeight="30.0" prefWidth="102.0" styleClass="icon" AnchorPane.bottomAnchor="309.0" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="83.0" />
+                        <SVGPath content="M32 30.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 30v12h-8v-8h-8v8h-8v-12l12-9z" layoutX="162.0" layoutY="84.0" scaleX="1.5" scaleY="1.5" scaleZ="1.5" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="96.96700096130371" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
+      <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="168.0" styleClass="principal-menu">
+         <content>
+            <GridPane minHeight="300.0" minWidth="100.0" styleClass="principal">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="10.0" prefWidth="25.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="120.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="10.0" prefWidth="25.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="274.0" minHeight="10.0" prefHeight="206.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="35.0" minHeight="20.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="10.0" minHeight="5.0" prefHeight="5.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="20.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="269.0" minHeight="10.0" prefHeight="269.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane styleClass="principal-transparent" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Button id="btnIniciar1" mnemonicParsing="false" styleClass="botones" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane styleClass="principal-transparent" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <Button id="btnIniciar2" mnemonicParsing="false" styleClass="botones" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</GridPane>
